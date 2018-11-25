@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "pianpianti";
+  src: local("Hanzipen SC"),
+  local("./assets/HanzipenSC.ttf");
+}
+.App {
+  text-align: center;
+}
+.Timer{
+  background-color: #fffcf7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Timer-Text{
+  position: absolute;
+  font-size: calc(5vmin);
+  font-family: "pianpianti";
+  height: 42vmin;
+  color: #222;
+}
+.Timer-Logo{
+  animation: App-logo-spin infinite 30s linear;
+  height: 100vmin;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
